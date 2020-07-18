@@ -1,0 +1,30 @@
+1. What is your understanding of Blockchain?
+  Ans-The blockchain is a simple yet inventive way of passing information from A to B in a fully automated and safe manner.
+  One party initiates the transaction by creating a block.This block is verified by thousands of computers around the internet.
+  The verified block is added to a chain, which is stored across the internet
+
+
+2. What is the core problem Blockchain trying to solve?
+  1. Security.
+  2. Decentralization.
+  3. Authentication.
+
+3. What are the few features which Blockchain will give u?
+  1. Verifiable
+  2. Unchangeable
+  3. Tamper proof
+  4. Immutable
+  5. Decentralized
+ 
+ 
+ 4. What all things a Block Contain does?
+    1. Block number
+    2. Records
+    3. Previous block signature
+    4. Current Block signature
+    5. Mining Key
+    
+5. How is the verifiability of blockchain is been achieved?
+   Ans-Verifiability in a blockchain can be achieved using peer to peer technology.
+       The verifiability is achieved through this formula -  
+          Current Block Signature = Previous Block Signature + Data in the Block
