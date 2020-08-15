@@ -1,0 +1,43 @@
+Train Ticket Code :
+
+pragma solidity ^0.4.17 < 0.6.12; 
+
+contract TrainTicketsData{
+    
+    string public name;
+    int public   age;
+    int public   fare;
+    string public gender;
+    string public pickuppnt;
+    string public destination;
+    
+    function TrainTicketsData(string newName, int newAge,int newFare,string newGender, string newPickuppnt, string newDestination) public{
+        
+        name = newName;
+        age = newAge;
+        fare = newFare;
+        gender = newGender;
+        pickuppnt = newPickuppnt;
+        destination = newDestination;
+        
+     }
+       function setLandNewDetails(string newName, int newAge,int newFare,string newGender, string newPickuppnt, string newDestination) public{
+        
+        name = newName;
+        age = newAge;
+        fare = newFare;
+        gender = newGender;
+        pickuppnt = newPickuppnt;
+        destination = newDestination;
+        
+    }
+  
+    
+    function getTicketDetails() public view returns(string,int,int,string,string,string){
+        return(name, age, fare, gender,pickuppnt, destination);
+    }
+}
+
+Contract ID:0x03FBc2692b2094699159553C360310eAE895b860
+
+Ropsten:https://ropsten.etherscan.io/address/0x03fbc2692b2094699159553c360310eae895b860
